@@ -35,16 +35,16 @@
                 <input type="text" class="form-control" name="Chucvu" id="txtChucvu" placeholder="Nhập chức vụ" VALUE="<?php echo $row['chucvu'];?>">
             </div>
             <div class="form-group">
-                <label for="txtSomayban">Số máy bàn</label>
+                <label for="txtSomayban">Phòng Ban</label>
                 <input type="tel" class="form-control" name="Somayban" id="txtSomayban" placeholder="Nhập phòng ban" VALUE="<?php echo $row['Phongban'];?>">
             </div>
             <div class="form-group">
-                <label for="txtSodidong">Số di động</label>
+                <label for="txtSodidong">Lương</label>
                 <input type="tel" class="form-control" name="Sodidong" id="txtSodidong" placeholder="Nhập lương" VALUE="<?php echo $row['luong'];?>">
             </div>
             <div class="form-group">
-                <label for="txtEmail">Email</label>
-                <input type="email" class="form-control" name="Email" id="txtEmail" placeholder="Nhập ngày vào làm" VALUE="<?php echo $row['ngayvaolam'];?>">
+                <label for="txtEmail">Ngày vào làm</label>
+                <input type="date" class="form-control" name="Email" id="txtEmail" placeholder="Nhập ngày vào làm" VALUE="<?php echo $row['ngayvaolam'];?>">
             </div>
             
             
