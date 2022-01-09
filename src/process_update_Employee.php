@@ -19,7 +19,7 @@
     
     $number = mysqli_query($conn,$sql);
     if($number > 0){
-          header("location: admin.php");
+          header("location: ../index.php");
     }
     else{
          header("location: error.php");
