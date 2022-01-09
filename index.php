@@ -9,7 +9,7 @@
     <div class="container">
         <h5 class="text-center text-primary mt-5"></h5>
         <div>
-            <a class="btn btn-primary" href="addEmployee.php">Thêm</a>
+            <a class="btn btn-primary" href="./src/addEmployee.php">Thêm</a>
         </div>
         <table class="table">
             <thead>
