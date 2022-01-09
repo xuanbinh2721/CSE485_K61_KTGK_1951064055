@@ -46,8 +46,8 @@
                                 <td><?php echo $row['phongban']; ?></td>
                                 <td><?php echo $row['luong']; ?></td>
                                 <td><?php echo $row['ngayvaolam']; ?></td>
-                                <td><a href="./src/updateEmployee.php?id=<?php echo $row['manv']; ?>"><i class="bi bi-pencil-square"></i></a></td>
-                                <td><a href="./src/deleteEmployee.php?id=<?php echo $row['manv']; ?>"><i class="bi bi-trash"></i></a></td>
+                                <td><a href="src/updateEmployee.php?id=<?php echo $row['manv']; ?>"><i class="bi bi-pencil-square"></i></a></td>
+                                <td><a href="src/deleteEmployee.php?id=<?php echo $row['manv']; ?>"><i class="bi bi-trash"></i></a></td>
                             </tr>
                 <?php
                         }
